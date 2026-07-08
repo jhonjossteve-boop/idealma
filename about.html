@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About the Registry — Global Trader Registry</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+
+  <section class="about-hero">
+    <div class="about-icon" id="about-icon"></div>
+    <h1>About the Registry</h1>
+    <p>The Global Trader Registry provides institutional-grade credential verification for financial market professionals worldwide.</p>
+  </section>
+
+  <div class="about-content">
+    <div class="about-card">
+      <h2>Our Mission</h2>
+      <p>In modern financial markets, trust must be verified. Our mission is to maintain a definitive, publicly accessible ledger of certified trading professionals. By centralizing license statuses, historical verification dates, and professional credentials, we protect market integrity and prevent institutional fraud.</p>
+      <p>The registry serves as the primary lookup point for compliance officers, prime brokers, and counterparties who need to confirm a trader's standing before engaging in business.</p>
+    </div>
+
+    <div class="about-card">
+      <h2>How Verification Works</h2>
+      <p>Every trader listed in the registry has been cross-referenced against regulatory filings, licensing bodies, and continuing-education records. A record's status — Verified &amp; Active, Expired, or Suspended — reflects the most recent compliance check on file.</p>
+      <p>Searching by Trader ID or License Number returns the professional's identity, licensing details, registration timeline, certifications, and authorized trading categories, along with a scannable verification code and downloadable certificate.</p>
+      <div class="stat-grid">
+        <div class="stat"><div class="num">180+</div><div class="label">Countries Covered</div></div>
+        <div class="stat"><div class="num">Daily</div><div class="label">Record Updates</div></div>
+        <div class="stat"><div class="num">24/7</div><div class="label">Public Access</div></div>
+      </div>
+    </div>
+
+    <div class="about-card">
+      <h2>Compliance &amp; Data Protection</h2>
+      <p>The registry publishes only the information necessary to confirm a trader's professional standing. We do not disclose contact details, trading positions, or financial account information. All published data is handled in accordance with applicable data protection regulations.</p>
+    </div>
+  </div>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="data/traders.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      renderHeader("about");
+      renderFooter();
+      document.getElementById("about-icon").innerHTML = icon("shield", 28);
+    });
+  </script>
+</body>
+</html>

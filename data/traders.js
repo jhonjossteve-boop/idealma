@@ -15,8 +15,8 @@ const TRADERS = [
     ],
     awardsCount: 15,
     tradingCategories: ["Forex", "Stocks", "Commodities", "Digital Assets"],
-    specialization: "Financial Markets Analysis",
-    registrationDate: "2013-04-11",
+    specialization: "Financial Markets ",
+    registrationDate: "2017-04-11",
     verificationDate: "2026-01-08",
     expiryDate: "2027-01-08",
     status: "VERIFIED"

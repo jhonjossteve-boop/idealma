@@ -7,7 +7,7 @@ function renderHeader(activePage) {
     <div class="header-inner">
       <a href="index.html" class="brand">
         <span class="brand-icon">${icon("shield", 18)}</span>
-        <span class="brand-name">Global Trader Registry</span>
+        <span class="brand-name">Europepro Verify</span>
       </a>
       <nav class="main-nav">
         <a href="index.html" class="${activePage === "home" ? "active" : ""}">Home</a>
@@ -37,7 +37,7 @@ function renderFooter() {
       <div>
         <div class="brand" style="margin-bottom:12px;">
           <span class="brand-icon">${icon("shield", 18)}</span>
-          <span class="brand-name">Global Trader Registry</span>
+          <span class="brand-name">Europepro Verify</span>
         </div>
         <p>The official compliance registry for verified trading professionals.
         Providing institutional-grade credential verification for global financial markets.</p>
@@ -60,7 +60,7 @@ function renderFooter() {
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; ${new Date().getFullYear()} Global Trader Registry. All rights reserved.
+      &copy; ${new Date().getFullYear()} Europepro Verify. All rights reserved.
     </div>
   `;
 }

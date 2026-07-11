@@ -53,7 +53,13 @@ function renderProfile(t) {
       <div>
         <div class="card profile-card ${meta.cardCls}">
           <div class="profile-header">
-            <div class="avatar">${initials(t.fullName)}</div>
+            <div class="avatar">
+  ${
+    t.photoUrl
+      ? `<img src="${escapeHtml(t.photoUrl)}" alt="${escapeHtml(t.fullName)}" class="avatar-img" onerror="this.style.display='none'; this.parentNode.innerHTML='<span>${initials(t.fullName)}</span>';">`
+      : `<span>${initials(t.fullName)}</span>`
+  }
+</div>
             <div class="profile-identity">
               <h1>${escapeHtml(t.fullName)}</h1>
               <div class="specialization">${escapeHtml(t.specialization)}</div>

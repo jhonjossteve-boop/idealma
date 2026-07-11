@@ -4,8 +4,8 @@ const TRADERS = [
   {
     traderId: "TRD-221-10612",
     licenseNumber: "LIC-FX-88214",
-    fullName: "Lisa Martin",
-    photoUrl: "",
+    fullName: "Lisa Mason",
+    photoUrl: "https://i.ibb.co/CshpcWJ5/PHOTO-2026-07-08-14-00-57.jpg",
     country: "United Kingdom",
     experienceYears: 13,
     certifications: [
